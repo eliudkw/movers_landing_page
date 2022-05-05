@@ -19,9 +19,7 @@ movers_landing_page.
 
 ### [Description](#description)
 ***
-A sample Graphql client application working with the.
-
-This is my playground for working with graphql on Android.
+landing page
 
 ### [Features](#features)
 ***
