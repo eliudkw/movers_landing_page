@@ -102,7 +102,7 @@
     margin-top: 200px;
     margin-left: 100px;
 }
-hr {
+.info .line {
     width: 40%;
     height: 1.5%;
     border-radius: 2px;
@@ -133,4 +133,21 @@ hr {
     border-top-right-radius: 10px;
 }
 
-m
+/*movers-styling*/
+.movers {
+    background-color: whitesmoke;
+    border: 1px solid darkblue;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.movers-info {
+    margin: 100px;
+}
+hr .line-2 {
+    width: 40%;
+    height: 1.5%;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, orange, black);
+}
