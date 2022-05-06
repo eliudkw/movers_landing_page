@@ -1,18 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
 
-/*Global variables*/
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Adamina', serif;
 }
-
-body {
-    font-family: Poppins, Actor, Adamina;
-    font-weight: 400;
-    width: 100%;
-}
-/*End of global variables*/
 
 /*Header styling*/
 .head-wrapper {
@@ -27,11 +20,11 @@ body {
     /*display: flex;*/
     /*justify-content: center;*/
     /*align-items: center;*/
-    display: inline-block;
-    float: right;
-    border: 2px solid green;
-    padding: 20px;
-    margin-right: 450px;
+    display: flex;
+    align-items: center;
+    height: 148px;
+    padding-right: 20%;
+    justify-content: end;
 }
 .nav-bar a {
     /*display: inline-block;*/
@@ -86,3 +79,58 @@ body {
     font-weight: 800;
     margin-top: 20px;
 }
+
+/*About section*/
+.about {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid fuchsia;*/
+}
+.img-1 img {
+   background-size: contain;
+    border: 3px solid peru;
+    /*margin: 10px;*/
+    /*width: 40vw;*/
+    height: 60vh;
+    object-fit: fill;
+
+}
+.info {
+    align-content: center;
+    /*border: 2px solid yellowgreen;*/
+    margin-top: 200px;
+    margin-left: 100px;
+}
+hr {
+    width: 40%;
+    height: 1.5%;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, orange, black);
+}
+.info h1 {
+    font-size: 3em;
+    font-weight: 400;
+    font-family: Poppins, Actor, Adamina, aserif, serif;
+    /*border: 1px solid green;*/
+    margin-top: 20px;
+}
+.info p {
+    font-size: 1em;
+    letter-spacing: 5px;
+    /*font-weight: 200;*/
+    font-weight: lighter;
+    font-family: Poppins, Actor, Adamina, aserif, serif;
+}
+.info button {
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: #FAFF00;
+    text-decoration: none;
+    border-top-right-radius: 10px;
+}
+
+m
