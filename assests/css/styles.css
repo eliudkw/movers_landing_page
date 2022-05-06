@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins,  Actor, Adamina;
+}
+
+.head-wrapper {
+    background-image: url("../images/moving 1.png");
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    height: 50vh;
+    z-index: 1;
+    display: flex;
+    background-position: 50% 50%;
+}
