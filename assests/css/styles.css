@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Global styles */
 
-
+/*Global variables*/
 * {
     padding: 0;
     margin: 0;
@@ -12,8 +12,9 @@ body {
     font-weight: 400;
     width: 100%;
 }
+/*End of global variables*/
 
-
+/*Header styling*/
 .head-wrapper {
     background-image: url("../images/moving 1.png");
     width: 100%;
@@ -23,19 +24,34 @@ body {
     border: 2px solid #e9385a;
 }
 .nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    display: inline-block;
+    float: right;
     border: 2px solid green;
     padding: 20px;
+    margin-right: 450px;
 }
 .nav-bar a {
+    /*display: inline-block;*/
+    /*color: whitesmoke;*/
+    /*margin-right: 50px;*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*float: right;*/
+    /*border: 2px solid firebrick;*/
+    /*padding: 10px;*/
+    /*text-decoration: none;*/
+    position: relative;
     display: inline-block;
-    color: whitesmoke;
-    margin-right: 50px;
-    border: 2px solid firebrick;
-    padding: 10px;
+    vertical-align: top;
     text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 .top-button {
     background-color: #FFAC13;
@@ -45,7 +61,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 30px;
+    margin: 20px;
 
 }
 
@@ -57,5 +73,16 @@ body {
 }
 .text {
     /*padding: 50px;*/
-    margin: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.text h1 {
+    color: #FAFF00;
+    font-size: 3em;
+}
+.text p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 20px;
 }
