@@ -11,7 +11,7 @@
 .head-wrapper {
     background-image: url("../images/moving 1.png");
     width: 100%;
-    min-height: 600px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid #e9385a;
@@ -87,7 +87,15 @@
     flex-direction: row;
     /*border: 2px solid fuchsia;*/
 }
-.img-1 img {
+.img-1 {
+    height: 600px;
+    width: 600px;
+    /*border: 2px solid green;*/
+    background-image: url("../images/moving2 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-1 img{
    background-size: contain;
     border: 3px solid peru;
     /*margin: 10px;*/
@@ -100,7 +108,7 @@
     align-content: center;
     /*border: 2px solid yellowgreen;*/
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .info .line {
     width: 40%;
@@ -319,22 +327,27 @@ hr.line2 {
     font-weight: 100;
     font-size: 2em;
 }
-.icons {
+.social-media {
     margin-right: 100px;
+}
+.social-media i {
+    margin: 10px;
 }
 .icons-links {
     display: flex;
     margin-left: 250px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .column-heading {
     float: right;
     margin-left: 150px;
     /*padding: 30px;*/
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
+
 .column-heading li, a {
     list-style-type: none;
     text-decoration: none;
     color: white;
+    font-size: 1em;
 }
