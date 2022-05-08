@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Actor', serif;
+}
+
+.nav-bar {
+    display: flex;
+    /*align-items: center;*/
+    height: 200px;
+    /*padding-right: 20%;*/
+    /*justify-content: end;*/
+    background: #000;
+    flex-direction: column;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    /*justify-content: center;*/
+    color: #fff;
+    list-style: none;
+    gap: 70px;
+    margin-top: 30px;
+    margin-left: 900px;
+    margin-bottom: 20px;
+}
+
+
+.work-with {
+    padding-left: 80px;
+}
+
+li .nav-link {
+    padding: 15px 40px 15px 30px;
+    font-size: 25px;
+    border-top-right-radius: 20px;
+    background: #FFAC12;
+    color: #000;
+    border: transparent;
+}
+.house-rate {
+    display: flex;
+}
+.modern-house {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.currency {
+    justify-content: end;
+    color: white;
+    margin-top: 30px;
+    margin-left: 1000px;
+}
