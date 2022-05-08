@@ -216,6 +216,12 @@ input[type=text], select, textarea {
     justify-content: center;
 }
 
+hr.line2 {
+    width: 9%;
+    height: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, orange, black);
+}
 
 .card {
     display: grid;
@@ -231,7 +237,7 @@ input[type=text], select, textarea {
 }
 .card-image-0 {
     grid-area: image;
-    background: url("../images/ehem 1.png");
+    background: url("../images/Rectangle-7.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -265,51 +271,29 @@ input[type=text], select, textarea {
 }
 .card:hover {
     transform: scale(1.15);
-
 }
 
 .card-image-1 {
     grid-area: image;
-    background: url("../images/wewe 1.png");
+    background: url("../images/Rectangle-8.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
 }
 .card-image-2 {
     grid-area: image;
-    background: url("../images/movers 1.png");
+    background: url("../images/Rectangle-9.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
 }
 .card-image-3 {
     grid-area: image;
-    /*grid-area: image;*/
-    background: url("../images/chapchap 1.png");
+    background: url("../images/Rectangle-10.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
-    /*background-repeat: no-repeat;*/
 }
-.card-image-4 {
-    grid-area: image;
-    /*grid-area: image;*/
-    background: url("../images/mashinani 1.png");
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-size: cover;
-    /*background-repeat: no-repeat;*/
-}
-.card-image-5 {
-    grid-area: image;
-    /*grid-area: image;*/
-    background: url("../images/songa 1.png");
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-size: cover;
-    /*background-repeat: no-repeat;*/
-}
-
 
 /*footer section*/
 .footer {
