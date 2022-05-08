@@ -23,7 +23,8 @@ movers_landing_page.
 
 ### [Description](#description)
 ***
-landing page
+This project is a Landing Page and a webpage for movingcompany that shows information about the services it offers,  
+has details about the company,
 
 ### [Features](#features)
 ***
