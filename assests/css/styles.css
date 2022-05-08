@@ -12,7 +12,7 @@
     background-image: url("../images/moving 1.png");
     height: 1000px;
     background-size: cover;
-    border: 2px solid #e9385a;
+    /*border: 2px solid #e9385a;*/
 }
 .nav-bar {
     display: flex;
@@ -47,7 +47,7 @@
 .top-button:hover{
     background-color: white;
     color: black;
-    border: 1px solid #EC4067;
+    /*border: 1px solid #EC4067;*/
     cursor: pointer;
 }
 .text {
@@ -83,7 +83,7 @@
 }
 .img-1 img{
    background-size: contain;
-    border: 3px solid peru;
+    /*border: 3px solid peru;*/
     /*margin: 10px;*/
     /*width: 40vw;*/
     height: 60vh;

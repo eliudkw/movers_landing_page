@@ -4,6 +4,10 @@ movers_landing_page.
 
 ### Page Visuals
 ***
+<img src="./assests/images/page1.png" sizes="300 * 300">
+
+* page 2
+<img src="./assests/images/page2.png">
 
 ### Table of Content
 ***
