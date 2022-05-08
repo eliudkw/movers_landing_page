@@ -140,7 +140,7 @@ input[type=text], select, textarea {
 .main-box {
     background: #fff;
     margin-left: 50px;
-    padding: 30px 20px 0px 0px;
+    padding: 30px 20px 0 0;
     border-radius: 20px;
 
 }
@@ -156,4 +156,201 @@ h3 {
 .box1 {
     align-content: center;
     padding: 10px;
+}
+
+.description {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+    /*background: rgba(204, 204, 204, 0.21);*/
+}
+
+.theory {
+    margin-left: 200px;
+    background: #fff;
+    padding: 10px 30px 20px 30px;
+    border-radius: 20px;
+    /*box-shadow: rgb(204 204 204 / 80%) 4px 4px 8px 4px;*/
+}
+
+.theory h2 {
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.filler {
+    padding-top: 40px;
+}
+
+.featheader {
+    position: absolute;
+    padding-top: 100px;
+    margin-left: 80px;
+}
+
+/*section.features {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    height: 400px;*/
+/*    !*background: rgba(204, 204, 204, 0.21);*!*/
+/*}*/
+
+.features {
+    height: 200px;
+    width: 800px;
+    background: #fff;
+    border-radius: 20px;
+    margin-left: 200px;
+    /*box-shadow: rgb(204 204 204 / 80%) 4px 4px 8px 4px;*/
+}
+.text-hd h2 {
+    padding: 20px;
+    font-weight: 10;
+
+}
+
+.condition {
+    display: flex;
+    line-height: 1.8;
+    gap: 120px;
+}
+
+
+
+.movers {
+    background-color: 	#F8F8F8;
+    /*border: 1px solid darkblue;*/
+    /*margin: 30px;*/
+    /*margin-bottom: 30px;*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+.top-info {
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.top-info h2 {
+    font-size: 2.8em;
+    font-weight: 100;
+}
+.movers-card {
+    /*height: 800px;*/
+    /*width: 1200px;*/
+    display: flex;
+    /*flex-direction: column;*/
+    /*flex-flow: wrap row;*/
+    margin-left: 200px;
+    align-content: center;
+    justify-content: center;
+    /*border: 2px solid darkgreen;*/
+    /*margin-left: 150px;*/
+    /*margin-top: 50px;*/
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 300px 100px 60px;
+    grid-template-areas: "image" "text" "stats";
+    /*border: 3px solid black;*/
+
+    border-radius: 18px;
+    background: white;
+    /*box-shadow: 5px 5px 15px rgba(0,0,0,0.9);*/
+    /*font-family: roboto;*/
+    text-align: center;
+    /*margin: 20px;*/
+
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 20px;
+}
+.card-image-0 {
+    grid-area: image;
+    /*grid-area: image;*/
+    background: url("../images/ehem 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text .date {
+    color: rgb(255, 7, 110);
+    font-size:13px;
+}
+.card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+}
+.card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+}
+.card-stats {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /*background: rgb(255, 7, 110);*/
+}
+.card:hover {
+    transform: scale(1.15);
+    /*box-shadow: 5px 5px 15px rgba(0,0,0,0.6);*/
+}
+
+.card-image-1 {
+    grid-area: image;
+    /*grid-area: image;*/
+    background: url("../images/wewe 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+.card-image-2 {
+    grid-area: image;
+    /*grid-area: image;*/
+    background: url("../images/movers 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+.card-image-3 {
+    grid-area: image;
+    /*grid-area: image;*/
+    background: url("../images/chapchap 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+.card-image-4 {
+    grid-area: image;
+    /*grid-area: image;*/
+    background: url("../images/mashinani 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+.card-image-5 {
+    grid-area: image;
+    /*grid-area: image;*/
+    background: url("../images/songa 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
 }
