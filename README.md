@@ -50,7 +50,7 @@ cd movers_landing_page
 
 ### [Live Link](#liv-link)
 ***
-- Click this link to view the live application <br>
+- Click this link to view the live application <br> (https://eliudkw.github.io/movers_landing_page/index.html)
 
 ### [Technology Used](#technology-used)
 ***
